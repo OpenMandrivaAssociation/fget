@@ -12,6 +12,7 @@ License:        GPL
 Group:          Networking/File transfer
 URL:            http://www.feep.net/fget/
 Source0:        %name-%version.tar.bz2
+BuildRoot:      %_tmppath/%name-buildroot
 
 %description
 fget is a commandline tool for mirroring remote files via FTP. It was designed
