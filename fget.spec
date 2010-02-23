@@ -1,17 +1,15 @@
 %define name	fget
 %define version	1.3.3
-%define release	%mkrel 4
+%define release	%mkrel 5
 
-%define	Summary	Commandline tool for mirroring remote files via FTP
-
-Summary:	%Summary
+Summary:	Commandline tool for mirroring remote files via FTP
 Name:           %name
 Version:        %version
 Release:        %release
-License:        GPL
+License:        GPLv2+
 Group:          Networking/File transfer
 URL:            http://www.feep.net/fget/
-Source0:        %name-%version.tar.bz2
+Source0:        %{name}-%{version}.tar.bz2
 BuildRoot:      %_tmppath/%name-buildroot
 
 %description
@@ -30,7 +28,7 @@ Development library for fget
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
