@@ -1,6 +1,6 @@
 %define name	fget
 %define version	1.3.3
-%define release	%mkrel 5
+%define release	%mkrel 6
 
 Summary:	Commandline tool for mirroring remote files via FTP
 Name:           %name
