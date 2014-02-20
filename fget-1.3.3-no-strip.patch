@@ -1,0 +1,12 @@
+diff -urN fget-1.3.3/fget/Makefile.in fget-1.3.3-patched/fget/Makefile.in
+--- fget-1.3.3/fget/Makefile.in	2005-05-14 15:46:48.000000000 +1100
++++ fget-1.3.3-patched/fget/Makefile.in	2014-02-21 00:38:11.234692643 +1100
+@@ -15,7 +15,7 @@
+ 
+ ### Installation programs and flags
+ INSTALL		= @INSTALL@
+-INSTALL_PROGRAM	= @INSTALL_PROGRAM@ -s
++INSTALL_PROGRAM	= @INSTALL_PROGRAM@
+ INSTALL_DATA	= @INSTALL_DATA@
+ LN_S		= @LN_S@
+ MKDIR		= @MKDIR@
