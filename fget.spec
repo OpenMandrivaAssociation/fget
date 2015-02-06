@@ -3,7 +3,7 @@
 Summary:	Commandline tool for mirroring remote files via FTP
 Name:		fget
 Version:	1.3.3
-Release:	7
+Release:	8
 License:	GPLv2+
 Group:		Networking/File transfer
 Url:		http://www.feep.net/fget/
