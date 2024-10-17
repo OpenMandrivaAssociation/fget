@@ -6,7 +6,7 @@ Version:	1.3.3
 Release:	8
 License:	GPLv2+
 Group:		Networking/File transfer
-Url:		http://www.feep.net/fget/
+Url:		https://www.feep.net/fget/
 Source0:	ftp://ftp.feep.net/pub/software/fget/%{name}-%{version}.tar.bz2
 Patch0:		fget-1.3.3-no-strip.patch
 
