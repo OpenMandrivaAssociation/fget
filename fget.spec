@@ -10,6 +10,11 @@ Url:		https://www.feep.net/fget/
 Source0:	ftp://ftp.feep.net/pub/software/fget/%{name}-%{version}.tar.bz2
 Patch0:		fget-1.3.3-no-strip.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 fget is a commandline tool for mirroring remote files via FTP. It was designed
 as an analog to the GNU wget utility. The fget package includes an FTP client
